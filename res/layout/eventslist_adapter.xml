@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:orientation="vertical" >
+    <TableRow
+            android:id="@+id/tableRow121"
+            android:paddingBottom="5dip"
+            android:gravity="center_horizontal"
+            >
+    
+    
+    <TextView
+        android:id="@+id/textname" 
+        android:ellipsize="marquee"
+        android:textAlignment="textStart"
+        android:singleLine="true"
+        android:paddingBottom="5dip"
+        />
+</TableRow>
+</TableLayout>
+

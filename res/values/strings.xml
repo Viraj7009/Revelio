@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Revelio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Events_List">Events List</string>
+    <string name="go_back">Back</string>
+     <string name="RSVP">RSVP</string>
+      <string name="Events">Events</string>
+    <string name="action_settings">Settings</string>
+	<color name="blue">#728FCE</color>
+	<color name="white">#FFFFFF</color>
+</resources>

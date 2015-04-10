@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.camerademo.controllers.MainActivity$PlaceholderFragment" >
+    <LinearLayout android:id="@+id/relLay3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    >
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        android:alpha="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:background="@drawable/eventlogo"/>
+    <Button
+     android:id="@+id/btn2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="startPreviousList"
+        android:lineSpacingExtra="20dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:alpha="1"
+        android:background="@drawable/restaurant_logo"
+        />
+ </LinearLayout>
+ <LinearLayout
+    android:id="@+id/relLay4"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:alpha="1"
+    android:background="@color/white"
+    >
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="440dp" />
+
+    <Button
+        android:id="@+id/webbackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Back" />
+</LinearLayout>
+<LinearLayout android:id="@+id/relLay1"
+    android:layout_width="220dp"
+	android:alpha="1"
+    android:background="@color/blue"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tvlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:text="@string/Events" />
+    <ListView
+     android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:text="@string/Events" 
+        android:alpha="1"
+        />
+    <Button 
+     android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        android:alpha="1"
+       
+        />
+ </LinearLayout>
+ <LinearLayout
+    android:id="@+id/relLay2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   	android:alpha="0.5"
+    android:background="@color/blue"
+    >
+    <TextView android:id="@+id/tvedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Events_List" />
+    
+<Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startPreviousList"
+        android:layout_marginRight="20dp"
+        android:text="@string/go_back"
+       />
+<Button
+        android:id="@+id/btnRsvp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startPreviousList"
+        android:layout_marginRight="20dp"
+        android:text="@string/RSVP"
+       />           
+</LinearLayout>
+ </RelativeLayout>
